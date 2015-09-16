@@ -1,0 +1,309 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;}
+body{
+		/*color: #666666;*/
+		/*background-color: #f9f8f6;*/
+	  /*background-image: url("images/dark-wood.jpg");*/
+		background-position: center;
+		font-family: Georgia, times, serif;
+		font-size:14px;   	/*IT B&W2*/
+		line-height:20px;		/*IT B&W2*/
+		/*line-height: 1.4em;*/
+		margin: 0px;
+		color: #333333;							/*IT B&W2*/
+		background-color: #ffffff;  /*IT B&W2*/
+}
+.wrapper {
+	width: 940px;
+	margin: 10px auto 10px auto;
+	/*border: 2px solid #000000;*/
+	background-color: #ffffff;}
+header{
+	height: 140px;
+	/*
+	background-image: url("../images/logo-100px.jpg");
+	background-repeat:no-repeat;
+	background-position:left;
+	*/
+}
+/*
+h1{
+	text-indent: -9999px;
+	width: 940px;
+	height: 100px;
+	margin: 0px;}
+*/
+nav, footer {
+	clear: both;
+	color: #ffffff;
+	/*background-color: #aeaca8;*/
+	background-color: #444;;
+	/*height: 30px;*/
+	position:relative;
+	font-size:14px;
+	font-family:Verdana,Arial,sans-serif;
+}
+nav ul{
+	list-style:none;
+	list-image:none;
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	border:1px solid #000;
+	/*border-radius:5px;*/
+	background-color:#444;  /*Ice Megamenu Default CSS*/
+	/*background-color:#C8C8C8;*/
+	width:100%; /*Ice megamenu*/
+	/*height:50px;*/ /*Ice megamenu* Problem with submenu*/
+}
+
+nav ul.level1{
+	width:100%;
+	min-width:700px;
+	height:25px;
+}
+
+nav ul.level1 li{
+	position:relative;
+	/*border-right:1px solid #000;*/
+	float:left;
+	margin-right:5px;
+	margin-left:0px;
+}
+
+nav li a{
+	display:block;
+	padding:3px 0 3px 3px;
+	text-decoration:none;
+  color: #ffffff;
+}
+
+nav ul.level1 a{
+	width:140px;
+}
+
+nav ul.level2{
+	width=140px;
+}
+
+nav ul.level2 a{
+	width:140px;
+}
+
+nav li a:hover{
+	/*color:#FFF;*/
+	color:#F0C237; /*IT Megamenu*/
+	/*background-color:#00F;*/
+	background-color:#1A1A1A;   /*IT Megamenu*/
+}
+
+nav ul ul{
+	position:absolute;
+	left:-9999px;
+	border-bottom:none;
+}
+
+nav ul.level2 li{
+	border-bottom:1px solid #000;
+}
+
+nav li.submenu:hover ul.level2{
+	display:block;
+	left:0px;	
+	top:24px;
+}
+
+.arrow{
+	font-size:11px;
+	line-height:0%;
+}
+
+/*
+nav li{
+	display: inline;
+	margin-right: 0px;}
+nav li a {color: #ffffff;}
+nav li a:hover, nav li a.current {
+	color: #000000;}
+*/
+
+
+section.workspace {
+	float: right;
+	width: 80%;
+	/*border-left: 1px solid #eeeeee;*/
+}
+section.workspace p{
+	text-align:justify;
+}
+
+section.workspace h1{
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+	font-weight:normal;
+	font-size:150%;
+}
+section.workspace h2{
+	margin: 10px 0px 5px 0px;
+	padding: 0px;
+	font-weight:normal;
+	font-size:130%;
+}
+
+div .table_of_contents ol{
+	list-style-type:upper-roman;
+	margin:10px 0px 0px 0px;	
+}
+
+div .faq_list ul{
+	list-style-type:none;
+	margin:10px 0px 0px 0px;	
+}
+
+div .faq_list li{
+	margin:10px 0px 0px 0px;	
+}
+
+
+div .table_of_contents ol ol{
+	list-style-type:decimal;
+	margin:5px 0px 0px 0px;	
+}
+
+
+article {
+	clear: both;
+	/*overflow: auto;*/
+	/*width: 100%;*/
+	text-align:justify;
+}
+hgroup {
+	margin-top:40px;}
+figure {
+	float: left;
+	width: 290px;
+	height: 220px;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #eeeeee;}
+figcaption {
+	font-size: 90%;
+	text-align: left;}
+aside {
+	width: 160px;
+	float: left;
+	padding: 10px 0px 0px 0px;}
+aside section a {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #eeeeee;}
+aside section a:hover {
+	color: #985d6a;
+	background-color: #efefef;}
+a {
+	color: #de6581;
+	text-decoration: none;}
+h1, h2, h3 {
+	font-weight: normal;}
+h2 {
+	margin: 10px 0px 5px 0px;
+	padding: 0px;}
+h3 {
+	margin: 0px 0px 10px 0px;
+	color: #de6581;}
+aside h2 {
+	padding: 30px 0px 10px 0px;
+	color: #de6581;}
+footer {
+	font-size: 80%;
+	padding: 0px 0px 0px 0px;
+}
+footer ul{
+	list-style:none;
+	list-image:none;
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	border:1px solid #000;
+	/*border-radius:5px;*/
+	background-color:#444;  /*Ice Megamenu Default CSS*/
+	/*background-color:#C8C8C8;*/
+	width:100%; /*Ice megamenu*/
+	/*height:25px;*/ /*Ice megamenu* Problem with submenu*/
+}
+
+footer ul li{
+	/*position:relative;*/
+	border-right:1px solid #000;
+	float:left;
+	margin-right:5px;
+	margin-left:0px;
+}
+
+footer li a{
+	display:block;
+	padding:0px 3px 3px 0px;
+	text-decoration:none;
+  color: #ffffff;
+}
+footer li a:hover{
+	/*color:#FFF;*/
+	color:#F0C237; /*IT Megamenu*/
+	/*background-color:#00F;*/
+	background-color:#1A1A1A;   /*IT Megamenu*/
+}
+
+
+img.large{
+	width:500px;
+	height:500px;
+}
+img.medium{
+	width:200px;
+	height:336px;
+}
+img.align-right{
+	float:right;
+	margin:5px;
+	padding:0px 0px 0px 0px;
+}
+img.align-left{
+	float:left;
+	margin:0px;
+	padding:0px 10px 0px 0px;
+}
+
+img.small{
+	width:100px;
+	height:168px;
+}
+
+.logo{
+	margin-bottom:0px;
+	height:100px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+
+input:invalid {
+	border: 1px solid blue;//#CB000F;
+	color: red
+}
+
+input:valid {
+	color: #00882D;
+	//font-weight: bold;
+}
+
+input:indeterminate {
+	background-color: grey;
+}
+
+
+

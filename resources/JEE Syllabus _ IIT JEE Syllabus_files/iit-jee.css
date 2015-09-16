@@ -1,0 +1,25 @@
+body, td, th, input, textarea {color: #444; font: 78%/135% Verdana, Geneva, Arial, helvetica, sans-serif;}
+body {margin: 0; padding: 0;text-align: center;}
+h1, h2, h3, h4, h5, h6 {font-family: arial, geneva, sans-serif; color: #AD5200;}
+a {color: #00f; }
+a img {border: 0;}
+a:hover {color: #f00;}
+
+/* --- MAIN LAYOUT STYLING -- */
+#wrap {margin: 0 auto; padding: 0; position: relative; text-align: left; width: 760px;}
+#header {border-bottom: 1px dotted #808080; height: 60px; margin: 0; padding: 2px 0 0;}
+#content {float: left; margin: 5px 0 0; padding: 0; }
+#links {font: 70%/165% Verdana, Geneva, Arial, helvetica, sans-serif; float: left; margin: 10px 0 0; padding: 1; }
+#footer {border-top: 1px dotted #808080; clear: both; font-size: 80%; margin: 0 auto; text-align: center; padding: 15px 2px 2px;}
+
+
+/* ---- CONTENT/POST --- */
+#content {border: 1px dotted #808080; border-top: 0; border-bottom: 0; padding: 10 10px;}
+.post {margin: 0 0 25px; padding: 0;}
+.post-date {font-size: 135%;}
+.post-title {font-size: 180%;}
+.post-title a {text-decoration: none; color: #AD5200;}
+.post-title a:hover {color: #f00;}
+.post-content {word-spacing: 0.2em;}
+.post-meta {font-size: 85%; border-bottom: 1px dotted #808080; padding: 5px 0;}
+#comment {width: 80%;}
