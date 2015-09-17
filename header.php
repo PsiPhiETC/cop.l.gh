@@ -44,7 +44,7 @@
 	</li>
 	<li class=submenu><a href="#">IIT JEE Physics<span class="arrow">&#9660;</span></a>
 		<ul class="level2">
-			<li><a href="/iit-jee-physics/current-about.php">About Book</a></li>
+			<li><a href="/iit-jee-physics/about.php">About Book</a></li>
 			<li><a href="/iit-jee-physics/authors.php">About Authors</a></li>
 			<li><a href="/iit-jee-physics/errata.php">See Errata</a></li>
 			<li><a href="/iit-jee-physics/submit-errata.php">Submit Errata</a></li>
