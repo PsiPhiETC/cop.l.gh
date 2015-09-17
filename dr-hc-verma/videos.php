@@ -3,7 +3,6 @@ $PageTitle = "Videos of Dr HC Verma";
 $PageDescription = "Links to videos of Dr HC Verma";
 ?>
 <?php include('../header.php'); ?>
-<!--<?php include('aside.php'); ?>-->
 
 <!--BEGINASIDE-->
 <aside>
